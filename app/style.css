@@ -1,0 +1,23 @@
+body {
+  background-color: white;
+}
+body h1{
+  text-align: center;
+}
+#apiList{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.api {
+  background-color: lightgray;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: black;
+  flex-grow: 1;
+  flex-basis: 0;
+  width: 585px;
+}
+.api a{
+  display: block;
+}

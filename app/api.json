@@ -1,0 +1,33 @@
+{
+  "Timestamp Microservice":  {
+    "description" : "API takes human readable timestamp or unix(epoch) timstamp and returns both formats.",
+    "usage" : "Pass a unix timestamp or natural language data to the api (example: June 1, 1983)",
+    "urls" : [
+      "http://api.jellykid.org/time/323654640",
+      "http://api.jellykid.org/time/April%2004,%201980,%2012:04%20AM"
+    ]
+  },
+  "Request Header Parser Microservice":  {
+    "description" : "API returns IP address, language and software that was received in headers.",
+    "usage" : "This API takes no queries or parameters",
+    "urls" : [
+      "http://api.jellykid.org/whoami"
+    ]
+  },
+  "URL Shortener Microservice":  {
+    "description" : "API creates shortened urls that will redirect to the desired original link",
+    "usage" : "Pass a URL as a parameter or a short code.",
+    "urls" : [
+      "http://api.jellykid.org/short/http://www.google.com",
+      "http://api.jellykid.org/short/r1FM24V"
+    ]
+  },
+  "Image Search Abstraction Layer":  {
+    "description" : "API searches imgur for specified search string.",
+    "usage" : "Pass search string parameter with optional offset query. Offset specifies page of results.",
+    "urls" : [
+      "http://api.jellykid.org/imgsearch/cera?offset=1",
+      "http://api.jellykid.org/imgsearch/orlando%20florida"
+    ]
+  }
+}
